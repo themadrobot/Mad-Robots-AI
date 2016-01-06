@@ -5436,19 +5436,19 @@ public interface OdeMessages extends Messages {
   @Description("")
   String GetRowsWithConditionsMethods();
 
-  @DefaultMessage("简体中文")
+  @DefaultMessage("ç®€ä½“ä¸­æ–‡")
   @Description("")
   String SwitchToSimplifiedChinese();
 
-  @DefaultMessage("繁体中文")
+  @DefaultMessage("ç¹�ä½“ä¸­æ–‡")
   @Description("")
   String SwitchToTraditionalChinese();
 
-  @DefaultMessage("Español")
+  @DefaultMessage("EspaÃ±ol")
   @Description("")
   String SwitchToSpanish();
 
-  @DefaultMessage("Français")
+  @DefaultMessage("FranÃ§ais")
   @Description("")
   String SwitchToFrench();
 
@@ -5456,7 +5456,7 @@ public interface OdeMessages extends Messages {
   @Description("")
   String SwitchToItalian();
 
-  @DefaultMessage("Pусский")
+  @DefaultMessage("PÑƒÑ�Ñ�ÐºÐ¸Ð¹")
   @Description("")
   String SwitchToRussian();
 
@@ -5556,4 +5556,163 @@ public interface OdeMessages extends Messages {
   @Description("")
   String XMLTextDecodeMethods();
 
+ 
+  
+  
+  
+  
+ // <!-- Sphero messages added by Gareth Haylings 19/08/2015 -->
+  @DefaultMessage("ConnectToSphero")
+  @Description("")
+  String ConnectToSpheroMethods();
+  
+  @DefaultMessage("DisConnect")
+  @Description("")
+  String DisConnectMethods();
+  
+  
+  @DefaultMessage("Connects")
+  @Description("")
+  String ConnectsEvents();
+  
+  @DefaultMessage("Disconnects")
+  @Description("")
+  String DisconnectsEvents();
+  
+  
+  
+  @DefaultMessage("ConnectStatusCode")
+  @Description("")
+  String ConnectStatusCodeProperties();
+  
+  
+  
+  @DefaultMessage("ConnectStatusMessage")
+  @Description("")
+  String ConnectStatusMessageProperties();
+  
+  
+  @DefaultMessage("SpheroName")
+  @Description("")
+  String SpheroNameProperties();
+  
+  
+  @DefaultMessage("IsTailLightOn")
+  @Description("")
+  String IsTailLightOnProperties();
+  
+  @DefaultMessage("IsMotorLocked")
+  @Description("")
+  String IsMotorLockedProperties();
+  
+  @DefaultMessage("OnCollision")
+  @Description("")
+  String OnCollisionEvents();
+  
+  @DefaultMessage("OnMovement")
+  @Description("")
+  String OnMovementEvents();
+  
+  @DefaultMessage("SensorTiltFB")
+  @Description("")
+  String SensorTiltFBProperties();
+  
+  @DefaultMessage("SensorTiltLR")
+  @Description("")
+  String SensorTiltLRProperties();
+  
+  @DefaultMessage("SensorHeading")
+  @Description("")
+  String SensorHeadingProperties();
+  
+  @DefaultMessage("DistanceTravelledInX")
+  @Description("")
+  String DistanceTravelledInXProperties();
+  
+  @DefaultMessage("DistanceTravelledInY")
+  @Description("")
+  String DistanceTravelledInYProperties();
+  
+  @DefaultMessage("SensorVelocity")
+  @Description("")
+  String SensorVelocityProperties();
+  
+  @DefaultMessage("CommandStop")
+  @Description("")
+  String CommandStopMethods();
+  
+  @DefaultMessage("CommandExecute")
+  @Description("")
+  String CommandExecuteMethods();
+  
+  @DefaultMessage("cmdResetHomePosition")
+  @Description("")
+  String cmdResetHomePositionMethods();
+  
+  @DefaultMessage("cmdOnChargerKeepAwake")
+  @Description("")
+  String cmdOnChargerKeepAwakeMethods();
+  
+  @DefaultMessage("cmdOnChargerDisconnect")
+  @Description("")
+  String cmdOnChargerDisconnectMethods();
+    
+  @DefaultMessage("cmdMotorLock")
+  @Description("")
+  String cmdMotorLockMethods();
+  
+  
+  @DefaultMessage("cmdMotorUnlock")
+  @Description("")
+  String cmdMotorUnlockMethods();
+  
+  @DefaultMessage("cmdTailLightOn")
+  @Description("")
+  String cmdTailLightOnMethods();
+  
+  @DefaultMessage("cmdTailLightOff")
+  @Description("")
+  String cmdTailLightOffMethods();
+  
+  @DefaultMessage("cmdSetColor")
+  @Description("")
+  String cmdSetColorMethods();
+  
+  @DefaultMessage("cmdColor")
+  @Description("")
+  String cmdColorMethods();
+  
+  @DefaultMessage("cmdColorBrightness")
+  @Description("")
+  String cmdColorBrightnessMethods();
+  
+  @DefaultMessage("cmdSetHeading")
+  @Description("")
+  String cmdSetHeadingMethods();
+  
+  @DefaultMessage("cmdSetSpeed")
+  @Description("")
+  String cmdSetSpeedMethods();
+  
+  @DefaultMessage("cmdVibrate")
+  @Description("")
+  String cmdVibrateMethods();
+  
+  @DefaultMessage("cmdJumpForward")
+  @Description("")
+  String cmdJumpForwardMethods();
+  
+  @DefaultMessage("cmdJumpBack")
+  @Description("")
+  String cmdJumpBackMethods();
+  
+  @DefaultMessage("cmdRotateBy")
+  @Description("")
+  String cmdRotateByMethods();
+  
+  @DefaultMessage("cmdSpin")
+  @Description("")
+  String cmdSpinMethods();
+
+  
 }
